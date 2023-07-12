@@ -3,9 +3,8 @@ package br.com.project.helpdesk.domain.dtos;
 import br.com.project.helpdesk.domain.Cliente;
 import br.com.project.helpdesk.domain.enums.Perfil;
 import com.fasterxml.jackson.annotation.JsonFormat;
-import jakarta.validation.constraints.NotNull;
 import lombok.Data;
-
+import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 import java.time.LocalDate;
 import java.util.HashSet;

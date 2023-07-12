@@ -2,14 +2,15 @@ package br.com.project.helpdesk.resources.exceptions;
 
 import br.com.project.helpdesk.services.exceptions.DataIntegrityViolationException;
 import br.com.project.helpdesk.services.exceptions.ObjectnotFoundException;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.validation.ConstraintViolationException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.validation.ConstraintViolationException;
 
 @ControllerAdvice
 public class ResourceExceptionHandler {

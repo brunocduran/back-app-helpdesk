@@ -8,10 +8,10 @@ import br.com.project.helpdesk.domain.enums.Prioridade;
 import br.com.project.helpdesk.domain.enums.Status;
 import br.com.project.helpdesk.repositories.ChamadoRepository;
 import br.com.project.helpdesk.services.exceptions.ObjectnotFoundException;
-import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.validation.Valid;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;

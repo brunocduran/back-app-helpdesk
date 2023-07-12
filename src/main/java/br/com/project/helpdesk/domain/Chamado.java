@@ -3,11 +3,11 @@ package br.com.project.helpdesk.domain;
 import br.com.project.helpdesk.domain.enums.Prioridade;
 import br.com.project.helpdesk.domain.enums.Status;
 import com.fasterxml.jackson.annotation.JsonFormat;
-import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import javax.persistence.*;
 import java.io.Serializable;
 import java.time.LocalDate;
 import java.util.Objects;
